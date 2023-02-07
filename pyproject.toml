@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "sed"
+version = "0.1.0"
+description = "Система электронного документооборота"
+authors = ["tuuganbekov <tuuganbekovb@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Django = "^4.1.6"
+pillow = "^9.4.0"
+psycopg2-binary = "^2.9.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
